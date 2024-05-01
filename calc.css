@@ -23,6 +23,7 @@ body{
     border:none;
     background-color: hsl(0, 0%, 20%);
     text-align: left;
+    color: white;
 }
 
 #keys{
