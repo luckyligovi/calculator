@@ -60,3 +60,15 @@ button:active{
 .operator-btn:active{
     background-color: hsl(35, 100%, 75%);
 }
+
+.delete-btn{
+    background-color:hsl(8, 100%, 55%);
+}
+
+.delete-btn:hover{
+    background-color:hsl(8, 100%, 65%);
+}
+
+.delete-btn:active{
+    background-color:hsl(8, 100%, 75%); 
+}
