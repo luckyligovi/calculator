@@ -5,9 +5,9 @@ const display = document.getElementById("display");
 //   console.log(input);
 // }
 
-// function clearDisplay() {
-//   display.value = "";
-// }
+function clearDisplay() {
+  display.value = "";
+}
 
 function appendToDisplay(input){
     // Check if the input is an operator
@@ -27,6 +27,10 @@ function appendToDisplay(input){
     console.log(input);
 }
 
+function clearDisplay() {
+    display.value = "";
+  }
+
 function calculate() {
   try {
     // display.value = eval(display.value)
@@ -37,7 +41,7 @@ function calculate() {
       display.value = "";
     }
   } catch (error) {
-    display.value = "Error";
+    display.value = "";
   }
 }
 
